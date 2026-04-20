@@ -1,6 +1,6 @@
 const express = require('express')
 const supabase = require('../services/supabaseClient.js')
-const verifyToken = require('../middleware/verifytoken.js')
+const verifyToken = require('../middleware/verifyToken.js')
 const checkRole = require('../middleware/checkRole.js')
 
 const router = express.Router()
