@@ -476,7 +476,7 @@ router.post("/generar-portabilidad", async (req, res) => {
     try {
 
         const data = req.body
-        const pdfPath = path.join(__dirname, "..", "templates", "portabilidad.pdf")
+        const pdfPath = path.join(__dirname, "..", "templates", "PORTABILIDAD_V1.pdf")
         const existingPdfBytes = fs.readFileSync(pdfPath)
         const pdfDoc = await PDFDocument.load(existingPdfBytes)
         const form = pdfDoc.getForm()

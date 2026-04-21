@@ -1,5 +1,7 @@
 //const API_URL = "http://localhost:4000/api"
-const API_URL = "http://192.168.93.195:4000/api"
+const API_URL = "http://192.168.18.17:4000/api"
+//const API_URL = "http://192.168.56.1:4000/api"
+
 
 
 export const getPersonas = async (page, limit) => {
